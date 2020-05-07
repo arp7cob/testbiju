@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script id = "sap-ui-bootstap"
+		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		
+		<script>
+			var oButton = new sap.m.Button({
+				text:"UI5 Button",
+				press:function(){
+					alert("hi biju");
+				}
+				
+			}).placeAt("idControl");
+		</script>
+	</head>
+	
+	<body class="sapUiBody">
+		<div id="idControl"></div>
+	</body>
+	
+</html>
